@@ -31,6 +31,9 @@
     };
 
     systemd = {
+        oomd = {
+            enable = true;
+        };
         timers = {
             fstrim = {
                 enable = true;
